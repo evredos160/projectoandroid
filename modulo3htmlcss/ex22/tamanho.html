@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Realçando tamanho de imagens</title>
+    <style>
+        @font-face {
+            font-family: 'Play Display';
+            src: url('fonts/play_display/PlayfairDisplay-VariableFont_wght.ttf') format('truetype');
+        }
+        
+        @font-face {
+            font-family: Oswald;
+            src: url('fonts/Oswald/Oswald-VariableFont_wght.ttf') format('truetype');
+        }
+        :root {
+            --fontparagrafo: 'Play Display', cursive;
+            --fontprincipal: Oswald;  
+        }
+
+        body {
+            background-color: black;
+            background-image: url('wallpaper002.jpg');
+            background-repeat: no-repeat;
+            offset-position: center center;
+        }
+
+        header {
+            background-image: url('pattern001.png');
+            background-color: white;
+            padding: 10px;
+            margin: -8px;
+        }
+
+        header h1 {
+            margin: 0px;
+            padding: 0px;
+            text-align: center;
+            font-family: var(--fontprincipal);
+        }
+
+        nav {
+            padding: 20px;
+            margin: -8px;
+            background-color: rgb(29, 29, 31);
+        }
+        nav a {
+            color: black;
+            padding: 5px;
+            text-decoration: none;
+            font-family: var(--fontprincipal);
+        }
+
+        nav a:hover {
+            background-color: blueviolet;
+            border-radius: 4px;
+        }
+
+        main {
+            width: 60%;
+            background-color: aliceblue;
+            border: 4px solid rgb(241, 241, 231);
+            border-radius: 4px;
+            margin: 20% 20% 20% 20%;
+            padding: 10px;
+
+        }
+
+        main h1 {
+            font-family: var(--fontprincipal);
+        }
+
+        main img {
+            width: 100%;
+        }
+
+        main p {
+            text-align: justify;
+            font-size: 14px;
+            font-family: var(--fontparagrafo);
+        }
+
+        iframe {
+            width: 98%;
+        }
+
+        footer {
+            background-color: blanchedalmond;
+            padding: 50px;
+            margin: -8px;
+        }
+
+        footer a {
+            text-decoration: none;
+            font-size: 12px;
+            font-family: var(--fontprincipal);
+            font-weight: bold;
+            color: black;
+        }
+
+        footer a:hover {
+            background-color: black;
+            color: bisque;
+            border-radius: 4px;
+            padding: 5px;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Tramento de imagens de fundo</h1>
+    </header>
+    <nav>
+        <a href="#">home</a>
+        <a href="#">Explorer</a>
+        <a href="#">Lojas</a>
+        <a href="#">noticiais</a>
+    </nav>
+    <main>
+        <h1>Trabalhando Tamando de Imagens</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium odit pariatur vero nobis repellat quibusdam. Voluptatum ullam tempore fugit quos consequatur? A velit, repellendus vero consequuntur dignissimos debitis quaerat enim? Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit a atque esse itaque dignissimos, ducimus, totam quos et laborum numquam praesentium rem minus nobis consequuntur accusamus cupiditate earum dolorum obcaecati. Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque pariatur accusantium eaque expedita officia tempora repellat. Quos animi quo quae repellendus soluta amet delectus aspernatur, enim numquam nulla minus recusandae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate maxime facere fuga laudantium culpa iusto provident iste nobis dolores doloribus veniam distinctio cumque vel modi, aut suscipit, autem ducimus deleniti.
+        </p>
+        <picture>
+            <img src="wallpaper003.jpg" alt="Painel um">
+        </picture>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et eaque animi esse. Nisi atque rerum omnis neque voluptatem voluptates sed, accusamus maxime assumenda dolor. Id veniam facilis debitis corporis fugiat! Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit accusamus tempore quaerat velit voluptas rem beatae nemo est numquam, deleniti eveniet veniam voluptates atque eos nobis quidem praesentium et necessitatibus? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla vel praesentium fugiat deleniti suscipit quidem sed beatae veritatis! Saepe velit nam fuga tenetur vitae repudiandae inventore molestiae ut aut accusamus! Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem possimus, quam, similique sapiente ea voluptatibus quidem asperiores blanditiis maxime modi dicta nobis maiores molestiae! Rerum perferendis dicta maxime non officia?</p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/lNaoi5AUCsc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </main>
+    <footer>
+        <aside>
+            <a href="https://github.com/evredos160" target="_blank">Evredos</a>
+            <a href="https://evredos160.github.io/projectoandroid/" target="_blank">Android</a>
+        </aside>        
+    </footer>
+</body>
+</html>
